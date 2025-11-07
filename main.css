@@ -1,0 +1,167 @@
+/*vouvelle pg body */
+body { background-color: rgb(0, 0, 0); }
+.container { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+  .demo {
+  -webkit-border-radius : 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 29px 23px 19px -5px rgba(0,0,0,0.19); 
+  -moz-border-radius: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 29px 23px 19px -5px rgba(0,0,0,0.19);
+  border-bottom: 5px solid #121618;
+  border-radius: 40px;
+  background: rgb(140, 0, 191);
+  }
+
+/*fin body */
+.cn {
+    margin: 0 auto;
+  width: 200px;}
+  .rg { position: relative; top: 20px;
+     float: right;
+     margin-right:35px; }
+.header {
+  background-color: #9d12c7;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  .dropbtn {
+background-color: #ddcb66;
+color: white;
+padding: 20px;
+font-size: 20px;
+border: none;
+cursor: pointer;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: #000000;
+}
+/*navbar */
+
+.navbarhor {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    }
+
+li {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+    /* Change the link color on hover */
+li:hover {
+    background-color: #555;
+    color: white;
+    }
+}
+/*fin*/
+
+/*police*/
+.dd{
+font-family: "Merienda", cursive;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+font-size: 25px;
+}
+
+.d{font-family: 'Tangerine', serif;
+  font-size: 30px;
+  text-shadow: 4px 4px 4px #aaa;
+
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px;
+  }
+  .a {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+  }
+  .aa {
+    font-family: 'Tangerine', serif;
+    font-size: 38px;
+  }
+  .hh {
+    text-align: right;
+  }
+
+  .e{
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    }
+  .b {
+    list-style-position: inside;
+    list-style: square inside url("sqpurple.gif");
+  }
+/*fin*/
+/*foter*/
+.footer {
+  background-color: #99e0b9;
+  padding: 10px;
+  text-align: center;
+}
+/*fin*/
+
+.bout {
+  ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+li {
+ margin-left:2px;
+ float:left; /*pour IE*/
+ }
+ul li a {
+ display:block;
+ float:left;   
+ width:100px;
+ background-color:#6495ED;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ } 
+}
