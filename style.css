@@ -314,14 +314,21 @@ p.P22:hover {
 form.contacte {
   width: 350px;
   padding: 20px;
-  background: #f5f5f5;
+  background: #00000041;
   border-radius: 8px;
+  color: #f5f5f5;
 }
 
-input, textarea#message {
-  width: 100%;
+input {
+  width: 30%;
   padding: 8px;
   margin-top: 5px;
+}
+textarea#message {
+  width: 40%;
+  padding: 8px;
+  margin-top: 5px;
+
 }
 
 button {
@@ -332,3 +339,4 @@ button {
   margin-top: 10px;
   cursor: pointer;
 }
+
